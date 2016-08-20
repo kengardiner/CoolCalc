@@ -20,7 +20,7 @@ public class CalcActivity extends Activity {
     String runningNumber = "";
     String leftValueStr = "";
     String rightValueStr = "";
-    Operation currentOperation;
+    Operation currentOperation; //type from enum
     int result = 0;
 
     @Override
@@ -170,7 +170,7 @@ public class CalcActivity extends Activity {
         });
     }
 
-    void processOperation(Operation operation) {
+    void processOperation(Operation operation) { //using enum for type
 
         if (currentOperation != null) {
 
