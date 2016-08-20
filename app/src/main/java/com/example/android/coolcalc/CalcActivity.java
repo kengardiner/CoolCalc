@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class CalcActivity extends Activity {
-
+//Adding a comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +25,6 @@ public class CalcActivity extends Activity {
         Button eightBtn = (Button)findViewById(R.id.eightBtn);
         Button nineBtn = (Button)findViewById(R.id.nineBtn);
         Button zeroBtn = (Button)findViewById(R.id.zeroBtn);
-        Button twoBtn = (Button)findViewById(R.id.twoBtn);
 
         ImageButton calcBtn = (ImageButton)findViewById(R.id.calcBtn);
         TextView resultsView = (TextView)findViewById(R.id.resultsText);
